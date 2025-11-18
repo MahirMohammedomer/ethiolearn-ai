@@ -1,0 +1,105 @@
+import { Subject } from './types';
+
+export const SUBJECTS: Subject[] = [
+  { id: 'math', nameEn: 'Mathematics', nameAm: 'ሂሳብ', icon: '📐' },
+  { id: 'bio', nameEn: 'Biology', nameAm: 'ባዮሎጂ', icon: '🧬' },
+  { id: 'chem', nameEn: 'Chemistry', nameAm: 'ኬሚስትሪ', icon: '🧪' },
+  { id: 'phys', nameEn: 'Physics', nameAm: 'ፊዚክስ', icon: '⚛️' },
+  { id: 'eng', nameEn: 'English', nameAm: 'እንግሊዝኛ', icon: '📝' },
+  { id: 'amh', nameEn: 'Amharic', nameAm: 'አማርኛ', icon: '🇪🇹' },
+  { id: 'civ', nameEn: 'Civics', nameAm: 'ስነ ዜጋ', icon: '⚖️' },
+  { id: 'hist', nameEn: 'History', nameAm: 'ታሪክ', icon: '📜' },
+  { id: 'geo', nameEn: 'Geography', nameAm: 'ጂኦግራፊ', icon: '🌍' },
+  { id: 'ict', nameEn: 'ICT', nameAm: 'አይሲቲ', icon: '💻' },
+];
+
+export const TRANSLATIONS = {
+  en: {
+    welcome: "Welcome back, Student!",
+    streak: "Day Streak",
+    xp: "Total XP",
+    dashboard: "Dashboard",
+    studyHub: "Study Hub",
+    aiTutor: "AI Tutor",
+    analyzer: "Exam Analyzer",
+    quiz: "Quiz Arena",
+    dailyQuote: "Education is the key to unlock the golden door of freedom.",
+    selectSubject: "Select a Subject to Start",
+    startQuiz: "Start Quiz",
+    generateSummary: "Generate Summary",
+    askTutor: "Ask AI Tutor",
+    uploadQuestion: "Upload/Paste National Exam Question",
+    analyzeBtn: "Analyze Question",
+    loading: "Thinking...",
+    examCountdown: "Days until National Exam",
+    recentActivity: "Recent Activity",
+    typeMessage: "Type your question here...",
+    send: "Send",
+    correct: "Correct!",
+    incorrect: "Incorrect",
+    explanation: "Explanation",
+    analyzing: "Analyzing Database...",
+    sourcePrediction: "Source Prediction",
+    difficulty: "Difficulty",
+    successChance: "Success Probability",
+    // Study Plan
+    createPlan: "Create Study Plan",
+    yourPlan: "Today's Study Plan",
+    goalsPlaceholder: "e.g., Score 600 in National Exam, Master Calculus",
+    weakAreasPlaceholder: "e.g., Physics Mechanics, Biology Genetics",
+    generatePlan: "Generate Personalized Plan",
+    goals: "Your Goals",
+    weakAreas: "Weak Areas",
+    noPlan: "No active plan. Create one to organize your day!",
+    markComplete: "Mark Complete",
+    completed: "Completed",
+  },
+  am: {
+    welcome: "እንኳን ደህና መጡ!",
+    streak: "የቀናት ርዝመት",
+    xp: "ጠቅላላ XP",
+    dashboard: "ዳሽቦርድ",
+    studyHub: "የጥናት ማዕከል",
+    aiTutor: "AI አስተማሪ",
+    analyzer: "የፈተና ተንታኝ",
+    quiz: "የጥያቄ ውድድር",
+    dailyQuote: "ትምህርት የነጻነትን ወርቃማ በር መክፈቻ ቁልፍ ነው።",
+    selectSubject: "ለመጀመር ትምህርት ይምረጡ",
+    startQuiz: "ፈተና ጀምር",
+    generateSummary: "ማጠቃለያ አዘጋጅ",
+    askTutor: "AI አስተማሪን ጠይቅ",
+    uploadQuestion: "የብሄራዊ ፈተና ጥያቄ ያስገቡ",
+    analyzeBtn: "ጥያቄውን ተንትን",
+    loading: "እያሰበ ነው...",
+    examCountdown: "ለብሄራዊ ፈተና የቀሩ ቀናት",
+    recentActivity: "የቅርብ ጊዜ እንቅስቃሴዎች",
+    typeMessage: "ጥያቄዎን እዚህ ይፃፉ...",
+    send: "ላክ",
+    correct: "ትክክል!",
+    incorrect: "ስህተት",
+    explanation: "ማብራሪያ",
+    analyzing: "ዳታቤዙን በመፈተሽ ላይ...",
+    sourcePrediction: "የጥያቄው ምንጭ",
+    difficulty: "ከባድነት",
+    successChance: "የመመለስ እድል",
+    // Study Plan
+    createPlan: "የጥናት ዕቅድ አውጣ",
+    yourPlan: "የዛሬ የጥናት ዕቅድ",
+    goalsPlaceholder: "ምሳሌ፡ በብሄራዊ ፈተና 600 ማምጣት",
+    weakAreasPlaceholder: "ምሳሌ፡ ፊዚክስ፣ ባዮሎጂ ጀነቲክስ",
+    generatePlan: "ዕቅዱን አዘጋጅ",
+    goals: "ግቦችዎ",
+    weakAreas: "ደካማ ጎኖች",
+    noPlan: "ዕቅድ የለዎትም። ጥናትዎን ለማደራጀት አሁኑኑ ይፍጠሩ!",
+    markComplete: "ጨርሻለሁ",
+    completed: "ተጠናቅቋል",
+  }
+};
+
+export const SAMPLE_QUESTION = `Which of the following is a function of the mitochondria?
+A. Protein synthesis
+B. Photosynthesis
+C. Cellular respiration
+D. Lipid synthesis`;
+
+export const NATIONAL_EXAM_DATE = new Date('2024-06-15');
